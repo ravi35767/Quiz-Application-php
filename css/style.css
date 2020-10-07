@@ -1,0 +1,264 @@
+		html
+		{
+			scroll-behavior: smooth;
+		}
+
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			margin: 0;
+			padding: 0;
+		}
+		header{
+			height: 100px;
+			width: 100%;
+			background-color: black;
+		}
+		.logo{
+			float: left;
+			height: 100px;
+			width: 200px;
+		}
+		.name{
+			float: left;
+			height: 100px;
+			margin-left: 300px;
+		}
+		.icons{
+			float: right;
+			height: 100px;
+			width: 200px;
+		}
+		header h1{
+			color: white;
+			font-weight: bold;
+			font-family: sans-serif;
+			line-height: 90px;
+		}
+		header i{
+			background-color: black;
+			color: tomato;
+			font-size: 20px;
+			padding: 12px; 
+			margin-top: 30px;
+		}
+		header .fb{
+			color: #4281e5;
+		}
+		header .utube{
+			color: red;
+		}
+		header .twitter{
+			color: #6398ed;
+		}
+		header .whatsapp{
+			color: green;
+		}
+
+		nav{
+			background-color: tomato;
+			height: 60px;
+			width: 100%;
+		}
+		.nav1{
+			height: 60px;
+			width: 45%;
+			float: left;
+		}
+		.nav2{
+			height: 60px;
+			width: 18%;
+			float: right;
+		}
+		.nav1 a{
+			display: inline-block;
+			text-decoration: none;
+			color: black;
+			font-weight: lighter;
+			padding: 18px;
+			font-size: 20px;
+			font-family: sans-serif;
+			transition: 1s;
+		}
+		.nav1 a:hover{
+			background-color: black;
+			color:  tomato;
+			transition: 1s;
+		}
+		.nav2 a{
+			display: inline-block;
+			text-decoration: none;
+			color: black;
+			font-weight: lighter;
+			padding: 18px;
+			font-size: 20px;
+			font-family: sans-serif;
+			text-align: left; 
+			transition: 1s;
+		}
+		.nav2 a:hover{
+			background-color: black;
+			color:  tomato;
+			transition: 1s;
+		}
+		#slider{
+			height: 300px;
+			width: 98%;
+			background-color: green;
+			clear: both;
+			margin: auto;
+		}
+		#slider img{
+			height: 550px;
+			width: 100%;
+			clear: both;
+		}
+		.about{
+			height: 300px;
+			width: 95%;
+			border:2px solid tomato;
+			margin: 270px auto;
+			background-color: #eaedf2;
+		}
+		.about p{
+			margin: 10px;
+			text-align: justify;
+			font-family: sans-serif;
+		}
+		.services{
+			background-color: #eaedf2;
+			height: 400px;
+			width: 95%;
+			border:2px dashed red;
+			margin-top:-250px;
+			margin-left: 30px;
+		}
+		.contents{
+			height: 300px;
+			width: 20%;
+			outline: 2px solid #669fff;
+			float: left;
+			margin-left: 4%;
+			margin-top: 20px;
+		}
+		.contents i{
+			color: tomato;
+			padding: 30px;
+			border-radius: 60px;
+			font-size: 50px;
+			margin:10px 60px;
+			background-color: black;
+		}
+		.contents  p{
+			text-align: justify;
+			margin: 10px;
+		}
+		.contents  input{
+			color: black;
+			background-color: tomato;
+			border:none;
+			height: 40px;
+			width: 130px;
+			border:2px solid black;
+			margin-left: 50px;
+			margin-top: 10px;
+			cursor: pointer;
+			clear: both;
+		}
+		.contact{
+			background-color: #eaedf2;
+			height: 400px;
+			width:95%;
+			outline: 2px solid tomato;
+			margin: 30px auto;
+			clear: both;
+		}
+		.contact input[type="text"]{
+			height: 40px;
+			width: 530px;
+			padding: 10px;
+			border-radius: 3px;
+			border:none;
+			outline: none;
+			border:1px solid grey;
+			margin-top: 20px;
+		}
+		#msgBox{
+			height: 100px;
+			width: 1065px;
+			padding: 20px;
+		}
+		.contact input[type="button"]{
+			color: black;
+			background-color: tomato;
+			height: 40px;
+			width: 100px;
+			padding: 10px;
+			border-radius: 3px;
+			border:none;
+			outline: none;
+			border:2px solid black;
+			margin-left: 65px;
+			margin-top: 20px;
+			cursor: pointer;
+		}
+		.doctors{
+			height: 300px;
+			width: 95%;
+			margin: auto;
+		}
+		.doc1{
+			height: 300px;
+			width: 49%;
+			float: left;
+			border-right: 1px solid grey;
+			margin-left: 10px;
+		}
+		.doc1 img{
+			border-radius: 150px;
+			margin-top: 20px;
+			display: inline;
+		}
+		.imgDiv{
+			float: left;
+		}
+		.detailDoc{
+			float: left;
+			height: 250px;
+			width: 300px;
+			margin-top: 30px;
+			margin-left: 5px;
+			text-align: justify;
+		}
+		.doc2{
+			height: 300px;
+			width: 49%;
+			float: left;
+			border-left: 1px thin grey;
+		}
+		.doc2 img{
+			margin-top: 20px;
+			border-radius: 150px;
+			display: inline;
+			margin-left: 20px;
+		}
+		.footer{
+			/*height: 150px;*/
+			width: 100%;
+			background-color: black;
+			margin-top: 70px;
+			clear: both;
+		}
+		table h5,h6{
+			color: #ced3db;
+		}
+		table tr,td{
+			padding-top: 20px;
+			padding-left: 130px;
+		}
+		.footer p{
+			color: tomato;
+			padding: 20px;
+		}
